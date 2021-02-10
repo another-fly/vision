@@ -1,4 +1,33 @@
-# vision
+# Vision
+
+## Context
+
+fly.io is a friendly platform available as a service. It provides excellent features like:
+
+- building containers
+- deployment
+- external routing
+  - automatic TLS
+  - automatic load balancer
+- internal routing between different apps
+
+fly.io runs applications on top of microvms (firecracker), which is a superior technology. 
+It provides excellent isolation and provides a high level of security.
+
+The closest offering right now is Heroku, which also provides most of the same features.
+
+Rancher RIO: TBD
+
+## Gaps
+
+Both alternatives are closed source, meaning you can not install any of these alternatives in your infrastructure.
+Rancher RIO is open source but it is tied to Kubernetes.
+
+## Approach to fill the Gap
+
+TBD
+
+----
 
 ## AS-IS
 
