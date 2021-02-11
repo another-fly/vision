@@ -51,3 +51,18 @@ TBD
 - TOML config file
 - Autoscaling management
 - Ingress/Egress
+- Independence of infrastructure, MVP with docker-compose or docker-swarm
+
+#### Tools & take a look at
+
+- Logging:
+  - https://github.com/apex/log
+  - https://github.com/rs/zerolog
+- Docker & docker-compose SDK: 
+  - https://docs.docker.com/engine/api/sdk/
+  - https://github.com/docker/cli/tree/master/cli/compose
+- Cli creation:
+  - https://github.com/urfave/cli/blob/master/docs/v2/manual.md
+  - https://github.com/spf13/cobra
+- Toml management
+  - https://github.com/toml-lang/toml/wiki
