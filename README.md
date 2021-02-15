@@ -52,6 +52,7 @@ TBD
 - Autoscaling management
 - Ingress/Egress
 - Independence of infrastructure, MVP with docker-compose or docker-swarm
+- Can deploy the services you want inside a cluster. Heroku and GAE only offers deploying one service
 
 #### Tools & take a look at
 
