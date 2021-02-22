@@ -20,8 +20,12 @@ Rancher RIO: TBD
 
 ## Gaps
 
-Both alternatives are closed source, meaning you can not install any of these alternatives in your infrastructure.
-Rancher RIO is open source but it is tied to Kubernetes.
+- Both alternatives are closed source, meaning you can not install any of these alternatives in your infrastructure.
+- Rancher RIO is open source but it is tied to Kubernetes.
+- Waypoint has a great abstraction to deploy in most common used platforms, but it lacks in vendor locking with hcl config file, and it's still beta (v0.2.2).
+- Heroku, Gcloud (GAE) great tools but you can only deploy one service.
+- Kubevela is an open source PaaS for kubernetes only.
+
 
 ## Approach to fill the Gap
 
